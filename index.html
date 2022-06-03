@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <h1 class="title">Guess the number between 1 - 20</h1>
+      <div class="secret-number-container">
+        <span id="secret-number">?</span>
+      </div>
+      <div class="action-container">
+        <div class="input-group">
+          <input id="number-input" min="1" max="20" type="number" />
+          <button id="check-btn">Check</button>
+        </div>
+        <div class="message-group">
+          <p id="message">Start Guessing</p>
+          <p id="score">Score:</p>
+          <p id="highest-score">Highest Score: 0</p>
+        </div>
+      </div>
+    </div>
+    <button id="try-again-btn">Try Again</button>
+  </body>
+</html>
+<script src="./script.js"></script>

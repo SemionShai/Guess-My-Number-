@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+:root {
+  --main-bg: #2f3640;
+  --main-white: #f5f6fa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+  background-color: var(--main-bg);
+  color: var(--main-white);
+}
+
+.main-container {
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.secret-number-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.action-container {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.input-group {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.input-group > input {
+  width: 4rem;
+  height: 2.5rem;
+}
+
+.input-group > button {
+  width: 4rem;
+  height: 1.5rem;
+  border-radius: 0;
+  font-family: "Press Start 2P", cursive;
+  font-size: 10px;
+  padding: 5px;
+}
+
+.message-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 50%;
+  height: 100%;
+  font-size: 12px;
+}
+
+#secret-number {
+  border: 3px solid white;
+  padding: 25px;
+  font-size: 2rem;
+}
+
+#try-again-btn {
+  margin: 10px 5px;
+  width: 8rem;
+  height: 1.5rem;
+  border-radius: 0;
+  font-family: "Press Start 2P", cursive;
+  font-size: 10px;
+  padding: 5px;
+}
